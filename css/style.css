@@ -1,0 +1,35 @@
+:root{
+    --letras--: #194569;
+    --fundo--:#d9e9ed;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: auto;
+    max-width: 1250px;
+    background-color: var(--fundo--);
+    height: 100vh;
+}
+
+.principal{
+    display: flex;
+}
+
+.imgPerfil{
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+}
+
+.informações{
+    
+    padding: 5px 0px;
+}
+
+.contato, .skill, .Lenguages{
+    border: 1px solid black;
+    padding: 5px;
+}
